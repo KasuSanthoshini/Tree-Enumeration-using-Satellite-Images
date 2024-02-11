@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TreEnum</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>/* Reset default margin and padding */
+        body,
+        h1,
+        h2,
+        p,
+        ul,
+        li {
+          margin: 0;
+          padding: 0;
+        }
+        
+        /* Global styles */
+        body {
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+        }
+        
+        .container {
+          width: 98%;
+          margin: 0 auto;
+          overflow: hidden;
+          
+        }
+        
+        /* Header styles */
+        header {
+          background-color: #216a17;;
+          color: #fff;
+          padding: 15px 0;
+        }
+        
+        .logo-title-menu {
+          display: flex;
+          align-items: center;
+        }
+        
+        .logo img {
+          height: 50px;
+          /* Adjust the height of the logo */
+          margin-right: 10px;
+          /* Add space between logo and title */
+        }
+        
+        .title {
+          flex: 1;
+          /* Fill remaining space */
+        }
+        
+        nav {
+          margin-left: auto;
+          /* Push menu to the right */
+        }
+        
+        nav ul {
+          list-style: none;
+        }
+        
+        nav ul li {
+          display: inline;
+          margin-left: 20px;
+        }
+        
+        nav ul li a {
+          color: #fff;
+          text-decoration: none;
+        }
+        
+        /* Main styles */
+        main {
+          padding: 20px 0;
+        }
+        
+        .section {
+          display: flex;
+          align-items: center;
+        }
+        
+        .section img {
+          max-width: 200px;
+          /* Adjust the width as needed */
+          margin-right: 20px;
+          /* Add spacing between the image and text */
+          text-align: center;
+        }
+        
+        .section .text {
+          flex: 1;
+        }
+        
+        
+        .image-row {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          /* Allow images to wrap to the next line */
+          gap: 5px;
+        
+        }
+        
+        .image-container {
+          text-align: center;
+          width: 30%;
+          /* Adjust the width for each image container */
+          margin-bottom: 20px;
+          /* Add margin between images */
+        }
+        
+        .image-container img {
+          max-width: 250px;
+          /* Adjust image width */
+        }
+        
+        .caption {
+          margin: 5px 0 0;
+          /* Margin for the caption text */
+          font-size: 14px;
+          /* Adjust font size */
+          /* Add other styles as needed */
+        }
+        
+        
+        .left-section,
+        .right-section {
+          width: 48%;
+          float: left;
+          margin-right: 2%;
+        }
+        
+        /* Footer styles */
+        footer {
+          background-color: #333;
+          color: #fff;
+          padding: 15px 0;
+          text-align: center;
+        }
+        
+        
+        /* Previous styles remain unchanged */
+        
+        /* Mobile-first approach */
+        @media screen and (max-width: 768px) {
+          nav {
+            flex-direction: column;
+            padding: 10px;
+          }
+        
+          .logo {
+            margin-bottom: 10px;
+          }
+        
+          .nav-links {
+            justify-content: center;
+          }
+        
+          .nav-links li {
+            margin: 0 10px;
+          }
+        
+          .image-container {
+            width: 80%;
+            /* Adjust width for smaller screens */
+          }
+        }
+      /* Styles for the contact card */
+.contact-card {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for contact details */
+.contact-details {
+  margin-top: 15px;
+}
+
+.contact-details p {
+  margin: 5px 0;
+}
+
+.contact-details strong {
+  font-weight: bold;
+}
+  
+      </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo-title-menu">
+          <div class="logo">
+            <img src="images\logo.jpg" alt="Logo" />
+          </div>
+          <div class="title">
+            <h1>TreEnum</h1>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="http://127.0.0.1:5500/home.html">Home</a></li>
+              <li><a href="http://127.0.0.1:5500/aboutsih.html">About</a></li>
+              <li><a href="http://127.0.0.1:5000">Login</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="section">
+          <img width="100px" src="images\coallogo.png" alt="MOC" />
+          <div class="text">
+            <h3 style="text-align: center; font-size: xx-large;"><b>Welcome to TreEnum</b></h3>
+            <p style="text-align: center;">Automate tree population analysis with ease.</p>
+          </div>
+        </div>
+        <br>
+        <div class="section">
+          <div class="text">
+            <h2>Tree Analysis</h2>
+            <p>Analyze tree populations with cutting-edge technology.</p>
+            
+          </div>
+        </div>
+
+        <br><br>
+        <h2>Developmental Projects</h2>
+        <p style="text-align: justify;">Developmental projects within forest lands encompass a concerted effort to harmonize human development with environmental preservation. These initiatives are multifaceted, focusing on reforestation, biodiversity conservation, and sustainable forest management practices. Reforestation and afforestation programs aim to replenish and expand forest cover, while biodiversity conservation projects prioritize the protection of diverse ecosystems and endangered species. Sustainable forest management practices are implemented to ensure responsible utilization of resources, balancing economic interests with long-term ecological health. Central to these projects is community engagement, empowering local populations with sustainable livelihoods through initiatives like eco-tourism and agroforestry while involving them in conservation efforts. Moreover, these projects address climate change mitigation by leveraging forests' role in carbon sequestration. Governance improvements and technological advancements further underpin these endeavors, promoting policies and tools that facilitate informed decision-making and innovation in forest management. In essence, these projects strive to create a sustainable equilibrium between human development and the preservation of invaluable forest ecosystems.</p>
+        <br>
+        <div class="image-row">
+          
+          <div class="image-container">
+              <img src="images\img1.jpeg" alt="Image 1" class="rounded img-fluid">
+              <p class="caption">Dams</p>
+          </div>
+          <div class="image-container">
+              <img src="images\img2.jpeg" alt="Image 2"  class="rounded img-fluid">
+              <p class="caption">Mining</p>
+          </div>
+          <div class="image-container">
+              <img src="images\img3.jpeg" alt="Image 3"  class="rounded img-fluid">
+              <p class="caption">Industry</p>
+          </div>
+          <div class="image-container">
+              <img src="images\img4.jpeg" alt="Image 4"  class="rounded img-fluid">
+              <p class="caption">Timber Extraction</p>
+          </div>
+          <div class="image-container">
+              <img src="images\img5.jpeg" alt="Image 5"  class="rounded img-fluid">
+              <p class="caption">Highways</p>
+          </div>
+          <div class="image-container">
+            <img src="images\img6.jpeg" alt="Image 5"  class="rounded img-fluid">
+            <p class="caption">Resorts</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container" >
+        <div class="contact-card">
+          <h2>Contact Information</h2>
+          <div class="contact-details">
+            <p><strong>Phone Number:</strong>+91 1234567889</p>
+            <p><strong>Email:</strong> ministryofcoal@example.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
